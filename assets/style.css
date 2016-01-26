@@ -1,0 +1,57 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wixiweb-logo {
+	bottom: 20px;
+	display: block;
+	left: 20px;
+	position: absolute;
+	z-index: 100;
+}
+
+    #wixiweb-logo > img {
+    	width: 40px;
+    	height: 40px;
+    }
+    
+.reveal img.simple {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+code.inline {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+	padding: 3px 5px;
+}
+
+ul.unstyled {
+	list-style: none;
+}
+
+p.small {
+	font-size: 0.75em;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.2-columns {
+    float: left;
+    width: 50%;
+}
+
+table.small tbody {
+    font-size: 0.7em;
+}
+
+table.small code {
+    font-size: 0.8em;
+}
