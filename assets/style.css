@@ -3,49 +3,53 @@ html, body {
 }
 
 #wixiweb-logo {
-	bottom: 20px;
-	display: block;
-	left: 20px;
-	position: absolute;
-	z-index: 100;
+    bottom: 20px;
+    display: block;
+    left: 20px;
+    position: absolute;
+    z-index: 100;
 }
 
     #wixiweb-logo > img {
-    	width: 40px;
-    	height: 40px;
+        width: 40px;
+        height: 40px;
     }
     
-.reveal img.simple {
-	background-color: transparent;
-	border: none;
-	box-shadow: none;
+.reveal img.unstyled {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal img.full-page  {
+    max-height: 650px;
 }
 
 code.inline {
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 4px;
-	padding: 3px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 3px 5px;
 }
 
-ul.unstyled {
-	list-style: none;
+.reveal section .text-italic {
+    font-style: italic;
 }
 
-p.small {
-	font-size: 0.75em;
+.reveal section ul.unstyled {
+    list-style: none;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+.reveal section p.small {
+    font-size: 0.75em;
 }
-.clearfix:after {
-    clear: both;
+
+.reveal section p.tiny {
+    font-size: 0.6em;
+    font-weight: 300;
 }
-.2-columns {
-    float: left;
-    width: 50%;
+
+.reveal section .mgb {
+    margin-bottom: 1em;
 }
 
 table.small tbody {
