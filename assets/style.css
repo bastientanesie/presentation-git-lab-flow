@@ -52,6 +52,10 @@ code.inline {
     margin-bottom: 1em;
 }
 
+.reveal section .text-shadow {
+    text-shadow: 1px 1px 4px #000;
+}
+
 table.small tbody {
     font-size: 0.7em;
 }
